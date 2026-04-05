@@ -25,6 +25,7 @@
 
 ## 📂 Project Structure
 
+```
 INTER-MARKET RELATIONSHIP/
 │
 ├── assets/
@@ -45,7 +46,7 @@ INTER-MARKET RELATIONSHIP/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
-
+```
 ---
 
 ## ⚙️ Installation
