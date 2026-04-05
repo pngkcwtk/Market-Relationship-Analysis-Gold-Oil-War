@@ -92,8 +92,8 @@ Gold และ Oil “Decoupled” ในช่วงสงคราม
 
 - Positive correlation ชัดเจน
 - ข่าวเพิ่ม → ราคาน้ำมันเพิ่ม
-
-assets/3Theory_vs_Reality_by_Asset.png
+  
+![Comprehensive Dynamics](assets/3Theory_vs_Reality_by_Asset.png)
 
 ---
 
@@ -111,13 +111,13 @@ assets/3Theory_vs_Reality_by_Asset.png
 - มีช่วง correlation สูง/ต่ำสลับกัน
 - ปี 2026 มี spike ชัดเจน
 
-assets/2Statistical_Proof.png
+![Statistical Proof](assets/2Statistical_Proof.png)
 
 ---
 
 ## 🌍 Market Overview
 
-assets/1Comprehensive_Dynamics.png
+![Comprehensive Dynamics](assets/1Comprehensive_Dynamics.png)
 
 ---
 
