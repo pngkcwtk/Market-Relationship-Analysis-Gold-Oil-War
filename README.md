@@ -65,14 +65,14 @@ pip install -r requirements.txt
 ## 🚀 Usage
 
 # 1. Data Collection
-python src/crawler/gold_scraper.py
-python src/crawler/oil_scraper.py
+- python src/crawler/gold_scraper.py
+- python src/crawler/oil_scraper.py
 
 # 2. Data Cleaning
-# เปิดไฟล์ src/processing/data_cleaner.ipynb
+- เปิดไฟล์ src/processing/data_cleaner.ipynb
 
 # 3. Analysis
-# เปิดไฟล์ main.ipynb
+- เปิดไฟล์ main.ipynb
 
 ---
 
