@@ -10,7 +10,7 @@
 - 🛢️ ราคาน้ำมันดิบ WTI (Oil - USD)
 - 📰 ความเข้มข้นของข่าวสงคราม (War News Intensity)
 
-คำถามหลัก:
+💡 คำถามหลัก:
 สงครามทำให้ทองและน้ำมันเคลื่อนไหวไปในทิศทางเดียวกันจริงหรือไม่?
 
 ---
@@ -25,7 +25,6 @@
 
 ## 📂 Project Structure
 
-```
 INTER-MARKET RELATIONSHIP/
 │
 ├── assets/
@@ -46,7 +45,7 @@ INTER-MARKET RELATIONSHIP/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
-```
+
 ---
 
 ## ⚙️ Installation
@@ -96,10 +95,17 @@ Dynamic Correlation:
 
 ## 📈 Visualizations
 
-assets/1Comprehensive Dynamics.png
-assets/2Statistical Proof.png
-assets/3Theory vs. Reality by Asset.png
-assets/4Visualizing Noise.png
+### Gold & Oil Dynamics
+![Gold & Oil](assets/1Comprehensive%20Dynamics.png)
+
+### Rolling Correlation
+![Rolling](assets/2Statistical%20Proof.png)
+
+### War News vs Prices
+![Scatter](assets/3Theory%20vs.%20Reality%20by%20Asset.png)
+
+### Noise Effect
+![Noise](assets/4Visualizing%20Noise.png)
 
 ---
 
