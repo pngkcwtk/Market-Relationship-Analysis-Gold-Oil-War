@@ -4,22 +4,22 @@
 
 ## 📌 Overview
 
-โปรเจกต์นี้มุ่งเน้นการทำ Proof-based Analysis เพื่อพิสูจน์ความสัมพันธ์ระหว่าง:
+โปรเจกต์นี้มุ่งเน้นการทำ **Proof-based Analysis** เพื่อพิสูจน์ความสัมพันธ์ระหว่าง:
 
 - 🟡 ราคาทองคำ (Gold - THB)
 - 🛢️ ราคาน้ำมันดิบ WTI (Oil - USD)
 - 📰 ความเข้มข้นของข่าวสงคราม (War News Intensity)
 
-💡 คำถามหลัก:
+> 💡 คำถามหลัก:
 สงครามทำให้ทองและน้ำมันเคลื่อนไหวไปในทิศทางเดียวกันจริงหรือไม่?
 
 ---
 
 ## 🎯 Objectives
 
-- ทดสอบทฤษฎี Safe Haven ของทองคำ
-- วิเคราะห์ความไวของราคาน้ำมันต่อข่าวสงคราม
-- ตรวจสอบความสัมพันธ์ระหว่าง Gold vs Oil
+- 🛡️ ทดสอบทฤษฎี Safe Haven ของทองคำ
+- ⚡ วิเคราะห์ความไวของราคาน้ำมันต่อข่าวสงคราม
+- 🔗 ตรวจสอบความสัมพันธ์ระหว่าง Gold vs Oil
 
 ---
 
@@ -70,42 +70,54 @@ python src/crawler/oil_scraper.py
 
 ---
 
-## 📊 Key Findings
+## 📊 Key Findings: The Proof of Reality
 
-War News Paradox:
+❌ War News Paradox
+
 - Normal Correlation: -0.45
-- War Period: ~0.03
+- War Period Correlation: ~0.03
 
-=> ความสัมพันธ์ "หายไป" ในช่วงสงคราม
+👉 Conclusion:
+สินทรัพย์ทั้งสอง "Decoupled" ในช่วงสงคราม
 
-Oil:
-- Positive correlation ชัดเจน
-- ข่าวมาก → ราคาขึ้น
-
-Gold:
-- ไม่ได้ขึ้นตามข่าวเสมอ
-- มีความไม่แน่นอนสูง
-- Price-in ล่วงหน้า
-
-Dynamic Correlation:
-- ความสัมพันธ์ไม่คงที่
-- มี spike ในปี 2026
+![Noise](assets/4Visualizing%20Noise.png)
 
 ---
 
-## 📈 Visualizations
+🛢️ Oil Behavior (Verified ✅)
 
-### Gold & Oil Dynamics
-![Gold & Oil](assets/1Comprehensive%20Dynamics.png)
+- Positive correlation ชัดเจน
+- ข่าวเพิ่ม → ราคาน้ำมันเพิ่ม
 
-### Rolling Correlation
-![Rolling](assets/2Statistical%20Proof.png)
-
-### War News vs Prices
 ![Scatter](assets/3Theory%20vs.%20Reality%20by%20Asset.png)
 
-### Noise Effect
-![Noise](assets/4Visualizing%20Noise.png)
+---
+
+🟡 Gold Behavior (Refuted ❌)
+
+- ไม่ได้ขึ้นตามข่าวเสมอ
+- Price-in ล่วงหน้า
+- มีความผันผวนสูง
+
+(สังเกตจาก scatter plot: การกระจายตัวสูงกว่า oil)
+
+---
+
+## 📈 Dynamic Relationship
+
+- ความสัมพันธ์ไม่คงที่ (Non-stationary)
+- มีช่วง correlation สูง/ต่ำสลับกัน
+- ปี 2026 มี spike ชัดเจน
+
+![Rolling](assets/2Statistical%20Proof.png)
+
+---
+
+## 🌍 Market Overview
+
+ภาพรวมการเคลื่อนไหวของทอง + น้ำมัน + ช่วงสงคราม
+
+![Overview](assets/1Comprehensive%20Dynamics.png)
 
 ---
 
@@ -118,19 +130,18 @@ Dynamic Correlation:
 
 ---
 
-## 💡 Insight
+## 💡 Key Insights
 
-War ≠ Guaranteed Gold Rally
-
+- ❗ War ≠ Guaranteed Gold Rally
 - War news = Noise
-- Gold & Oil ไม่ได้วิ่งคู่กันเสมอ
-- Market behavior เปลี่ยนตลอดเวลา
+- Gold & Oil ไม่ได้เคลื่อนที่ไปด้วยกันเสมอ
+- Market behavior เป็นแบบ Dynamic
 
 ---
 
 ## 🚀 Future Work
 
-- NLP วิเคราะห์ข่าว
+- NLP วิเคราะห์ sentiment ข่าว
 - VAR / Granger Causality
 - เพิ่ม USD, Crypto
 
@@ -138,5 +149,5 @@ War ≠ Guaranteed Gold Rally
 
 ## 📄 License
 
-- MIT License
+- Code: MIT License
 - Data: data/LICENSE_DATA.md
