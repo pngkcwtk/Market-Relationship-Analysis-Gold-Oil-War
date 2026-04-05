@@ -1,4 +1,4 @@
-# 📊 Proving the Relationship: Gold, Oil, and War News
+# 📊 Market-Relationship-Analysis-Gold-Oil-War
 
 > 🔍 Proof-based analysis of Gold, Oil, and War News dynamics
 
