@@ -1,4 +1,4 @@
-# 📊 Inter-market Relationship Analysis (Gold vs. Oil)
+# 📊 Proving the Relationship: Gold, Oil, and War News
 
 > 🔍 Proof-based analysis of Gold, Oil, and War News dynamics
 
